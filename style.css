@@ -1,0 +1,18 @@
+html {
+  --blue: #0072b9;
+}
+body {
+  background-color: var(--blue);
+  background-size: 15px;
+}
+
+.swan {
+  position: relative;
+  --x: 0;
+  --y: 0;
+  --rotateX: 0;
+  --rotate: 0;
+  transform: translateX(var(--x)) translateY(var(--y)) rotateY(var(--rotateX))
+    rotate(var(--rotate));
+  transition: transform 0.2s;
+}
